@@ -18,17 +18,32 @@ This repository provides code to reproduce the experiments from the paper *Inver
 
 For detailed instructions and examples, please refer to the individual directories and scripts.
 
-# ------------------------------
-# Environment Setup Instructions
-#
-# 1. Make sure Python 3 is installed.
-# 2. Create a virtual environment:
-#      python3 -m venv research
-# 3. Activate the environment:
-#      source research/bin/activate    # Linux/Mac
-#      research\Scripts\activate.bat   # Windows
-# 4. Install dependencies from this file:
-#      pip install -r requirements.txt
-#
-# After that, you can run the code within this environment.
-# ------------------------------
+-----------------------------------------------------------------------------
+Environment Setup Instructions
+
+To reproduce the Python environment used for this project, please follow the steps below:
+
+1. Ensure Python 3.x is installed on your system.
+
+2. Create a new virtual environment named 'research':
+   ```
+   python3 -m venv research
+   ```
+
+4. Activate the virtual environment:
+
+   ```
+   source research/bin/activate
+   ```
+
+
+5. Install all required packages from this file:
+   ```
+   pip install -r requirements.txt
+   ```
+
+
+Once these steps are completed, the environment will be configured identically
+to the one used during development and testing.
+
+
