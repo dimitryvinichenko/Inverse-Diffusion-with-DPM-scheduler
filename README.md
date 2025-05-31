@@ -17,3 +17,18 @@ This repository provides code to reproduce the experiments from the paper *Inver
 - `FastSAM/`: Utilities for semantic segmentation and mask generation.
 
 For detailed instructions and examples, please refer to the individual directories and scripts.
+
+# ------------------------------
+# Environment Setup Instructions
+#
+# 1. Make sure Python 3 is installed.
+# 2. Create a virtual environment:
+#      python3 -m venv research
+# 3. Activate the environment:
+#      source research/bin/activate    # Linux/Mac
+#      research\Scripts\activate.bat   # Windows
+# 4. Install dependencies from this file:
+#      pip install -r requirements.txt
+#
+# After that, you can run the code within this environment.
+# ------------------------------
